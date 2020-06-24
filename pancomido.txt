@@ -1,0 +1,73 @@
+# --------------------------------------------------------------------------
+"""
+    aprendizaje-de-maquina-para-sistemas-embebidos
+    http://escueladeveranojaveriana.com/aprendizaje-de-maquina-para-sistemas-embebidos/
+
+    WARNING: SPELLING ERROS ON PURPOSE!
+
+    git Practical xamples for course
+
+    bY: John A. Betancourt Gonzalez
+    Computer Vision Engeneer & BUger lover
+"""
+
+"""
+    Write your name here in a new line:
+        Octcat
+"""
+
+"""
+    1 - Read lena image
+        path = os.path.dirname(os.path.abspath(__file__))
+        img = cv2.imread(os.path.join(path, "lena.jpg"))
+
+    2 - Print Lena over the iamge
+        cv2.putText(img=img, text='Lena', org=(50, 50),
+            fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale= 2.0,
+            color=(255, 255, 255), thickness=1, lineType=int(cv2.LINE_AA)) 
+
+    3 - Darw lena's mouth:
+        cv2.line(img=img, pt1=(268, 350), pt2=(318, 348), 
+            color=(0, 0, 255), thickness=3) 
+
+    4 - Draw lena's eys
+        cv2.circle(img=img, center=(267, 265), radius=10, 
+            color=(0, 0, 255), thickness=3) 
+        cv2.circle(img=img, center=(329, 265), 
+            radius=10, color=(0, 0, 255), thickness=3) 
+
+    5 - Draw lena's face shape
+        cv2.ellipse(img=img, center=(290, 287), axes=(70, 100), 
+           angle=10, startAngle=0, endAngle=360, 
+           color=(0, 255, 255), thickness=3) 
+
+    6 - Draw lena's eyesbworns
+        cv2.line(img=img, pt1=(293, 262), pt2=(258, 244), color=(0, 0, 255), 
+            thickness=3) 
+        cv2.line(img=img, pt1=(320, 259), pt2=(353, 246), color=(0, 0, 255), 
+            thickness=3) 
+
+    7 - Draw lena's noseeee
+        cv2.line(img=img, pt1=(313, 276), pt2=(317, 323), color=(0, 0, 255), 
+            thickness=3) 
+        cv2.line(img=img, pt1=(317, 323), pt2=(286, 322), color=(0, 0, 255), 
+            thickness=3) 
+
+    8 - Draw canny lena
+        img_canny = cv2.Canny(img, 0, 100, 3)
+
+    9 - Draw gray lena
+        src_gray = cv2.cvColor(src=img, code=cv2.COLOR_BGR2GRAY)
+
+    10 - Draw blurred lena
+        img_blur = cv2.blur(src=img, ksize=(3,3))
+
+    11 - Draw img, img_canny, src_gray, img_blur images
+        cv2.imshow("canny", img_canny)
+        cv2.imshow("src_gray", src_gray)
+        cv2.imshow("img", img)
+        cv2.waitKey(0)
+
+    NOTE: Do not change nothing diferent from your working section
+
+"""
