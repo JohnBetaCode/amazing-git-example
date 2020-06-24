@@ -40,7 +40,7 @@ def main():
         cv2.line(img=img, pt1=(313, 276), pt2=(317, 323), color=(0, 0, 255), 
             thickness=3) 
         cv2.line(img=img, pt1=(317, 323), pt2=(286, 322), color=(0, 0, 255), 
-            thickness=3) 
+            thickness=3)  
     # ----------------------------------------------------------------------
     # 8 - Draw canny lena
     
