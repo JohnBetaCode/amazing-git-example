@@ -2,8 +2,8 @@
 # IMport yur dependencis herer
 # import this
 # import numpy
-# import cv2
-# import os
+import cv2
+import os
 
 # --------------------------------------------------------------------------
 # Put yur funtions righ here
@@ -14,6 +14,8 @@ def main():
 
     # ----------------------------------------------------------------------
     # 1 - Read lena image
+    path = os.path.dirname(os.path.abspath(__file__))
+    img = cv2.imread(os.path.join(path, "lena.jpg"))
 
     # ----------------------------------------------------------------------
     # 2 - Print Lena over the image
@@ -44,7 +46,8 @@ def main():
     
     # ----------------------------------------------------------------------
     # 11 - Show and display images
-    
+    cv2.imshow("img", img)
+    cv2.waitKey(0)
 
 # --------------------------------------------------------------------------
 # why this? check -> https://stackoverflow.com/questions/419163/what-does-if-name-main-do
