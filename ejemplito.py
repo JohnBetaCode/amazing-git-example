@@ -30,12 +30,14 @@ def main():
     # ----------------------------------------------------------------------
     # 4 - Draw lena's eyes
     cv2.circle(img=img, center=(267, 265), radius=10, 
-    color=(255, 0, 255), thickness=3) 
+        color=(255, 0, 255), thickness=3) 
     cv2.circle(img=img, center=(329, 265), 
-    radius=10, color=(0, 0, 255), thickness=6) 
+        radius=10, color=(0, 0, 255), thickness=6) 
     # ----------------------------------------------------------------------
     # 5 - Draw lena's face shape
-    
+    cv2.ellipse(img=img, center=(290, 287), axes=(70, 100), 
+        angle=10, startAngle=0, endAngle=360, 
+        color=(0, 255, 255), thickness=3) 
     # ----------------------------------------------------------------------
     # 6 - Draw lena's eyesbrows
     
