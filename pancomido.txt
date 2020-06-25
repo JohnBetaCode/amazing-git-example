@@ -16,6 +16,7 @@
         Octcat
         John Alberto BEtancourt Gonzalez 
 	Diego Alejandro Ramirez Vargas
+	Edgar Steven Correa Pinzon
 """
 
 """
