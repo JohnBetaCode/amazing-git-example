@@ -53,7 +53,8 @@ def main():
     
     # ----------------------------------------------------------------------
     # 9 - Draw gray lena
-    
+    src_gray = cv2.cvtColor(src=img, code=cv2.COLOR_BGR2GRAY)
+    img=src_gray
     # ----------------------------------------------------------------------
     # 10 - Draw blurred lena 
     
