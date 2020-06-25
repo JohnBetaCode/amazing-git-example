@@ -20,8 +20,8 @@ def main():
     # ----------------------------------------------------------------------
     # 2 - Print Lena over the image
     cv2.putText(img=img, text='LENA!!$%&/', org=(50, 50),
-    fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale= 2.0,
-    color=(255, 255, 255), thickness=1, lineType=int(cv2.LINE_AA)) 
+        fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale= 2.0,
+        color=(255, 255, 255), thickness=1, lineType=int(cv2.LINE_AA)) 
 
     # ----------------------------------------------------------------------
     # 3 - Draw lena's mouth 
