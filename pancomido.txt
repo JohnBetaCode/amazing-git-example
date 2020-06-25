@@ -20,6 +20,7 @@
 =======
 	    Diego Alejandro Ramirez Vargas
 	    David Francisco Calles
+		Juan Sebastian Casas
 >>>>>>> 857321f3585a9c968b7f88a6eb4304d69c4ad2a9
 """
 
