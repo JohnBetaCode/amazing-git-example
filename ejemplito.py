@@ -19,16 +19,20 @@ def main():
 
     # ----------------------------------------------------------------------
     # 2 - Print Lena over the image
-    cv2.putText(img=img, text='Lena', org=(50, 50),
+    cv2.putText(img=img, text='LENA!!$%&/', org=(50, 50),
     fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale= 2.0,
     color=(255, 255, 255), thickness=1, lineType=int(cv2.LINE_AA)) 
 
     # ----------------------------------------------------------------------
     # 3 - Draw lena's mouth 
     
+    
     # ----------------------------------------------------------------------
     # 4 - Draw lena's eyes
-    
+    cv2.circle(img=img, center=(267, 265), radius=10, 
+    color=(255, 0, 255), thickness=3) 
+    cv2.circle(img=img, center=(329, 265), 
+    radius=10, color=(0, 0, 255), thickness=6) 
     # ----------------------------------------------------------------------
     # 5 - Draw lena's face shape
     
