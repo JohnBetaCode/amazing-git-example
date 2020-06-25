@@ -15,7 +15,12 @@
     Write your name here in a new line:
         Octcat
         John Alberto BEtancourt Gonzalez 
+<<<<<<< HEAD
         Valentina Correa Bejarano
+=======
+	    Diego Alejandro Ramirez Vargas
+	    David Francisco Calles
+>>>>>>> 857321f3585a9c968b7f88a6eb4304d69c4ad2a9
 """
 
 """
