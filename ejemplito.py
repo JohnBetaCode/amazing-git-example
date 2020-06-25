@@ -31,7 +31,9 @@ def main():
     
     # ----------------------------------------------------------------------
     # 5 - Draw lena's face shape
-    
+    cv2.ellipse(img=img, center=(290, 287), axes=(70, 100), 
+           angle=10, startAngle=0, endAngle=360, 
+           color=(0, 255, 255), thickness=3) 
     # ----------------------------------------------------------------------
     # 6 - Draw lena's eyesbrows
     
