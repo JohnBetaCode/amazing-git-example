@@ -30,8 +30,9 @@ def main():
     # 5 - Draw lena's face shape
     
     # ----------------------------------------------------------------------
-    # 6 - Draw lena's eyesbrows
-    
+    # 6 - Draw lena's eyesbrows in two different colors
+    cv2.line(img=img, pt1=(293, 262), pt2=(258, 244), color=(0, 100, 255),thickness=3) 
+    cv2.line(img=img, pt1=(320, 259), pt2=(353, 246), color=(20, 0, 255),thickness=3)
     # ----------------------------------------------------------------------
     # 7 -Draw lena's nose
     
