@@ -16,9 +16,10 @@
         Octcat
         John Alberto BEtancourt Gonzalez 
         Maria Camila Roa
-	    Diego Alejandro Ramirez Vargas
-	    David Francisco Calles
-		Juan Sebastian Casas
+	Diego Alejandro Ramirez Vargas
+	David Francisco Calles
+	Juan Sebastian Casas
+	Laura Katherine Henao Gonzalez	   	
 """
 
 """
