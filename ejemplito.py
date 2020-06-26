@@ -52,15 +52,10 @@ def main():
              thickness=3)
     # ----------------------------------------------------------------------
     # 8 - Draw canny lena
-
+    img_canny = cv2.Canny(img, 0, 100, 3)
     # ----------------------------------------------------------------------
     # 9 - Draw gray lena
-<<<<<<< HEAD
-
-=======
-    src_gray = cv2.cvtColor(src=img, code=cv2.COLOR_BGR2GRAY)
-    img=src_gray
->>>>>>> 0fd069326ab40282d5a373d9bac6526bc414df93
+    src_gray = cv2.cvColor(src=img, code=cv2.COLOR_BGR2GRAY)
     # ----------------------------------------------------------------------
     # 10 - Draw blurred lena
     img_blur = cv2.blur(src=img, ksize=(3, 3))
