@@ -16,6 +16,7 @@
         Octcat
         John Alberto BEtancourt Gonzalez 
         Maria Camila Roa
+        Valentina Correa Bejarano
 	    Diego Alejandro Ramirez Vargas
 	    David Francisco Calles
 		Juan Sebastian Casas
