@@ -55,14 +55,15 @@ def main():
     img_canny = cv2.Canny(img, 0, 100, 3)
     # ----------------------------------------------------------------------
     # 9 - Draw gray lena
-    src_gray = cv2.cvColor(src=img, code=cv2.COLOR_BGR2GRAY)
+    src_gray = cv2.cvtColor(src=img, code=cv2.COLOR_BGR2GRAY)
     # ----------------------------------------------------------------------
     # 10 - Draw blurred lena
     img_blur = cv2.blur(src=img, ksize=(3, 3))
 
     # ----------------------------------------------------------------------
     # 11 - Show and display images
-    cv2.imshow("img", img)
+    cv2.imshow("img", src_gray) #lena_gray
+    #cv2.imshow("img", img)
     cv2.waitKey(0)
 
 
